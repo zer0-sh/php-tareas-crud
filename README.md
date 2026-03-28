@@ -1,11 +1,10 @@
 # PHP Tareas CRUD
 
-CRUD básico de tareas con PHP puro y SQLite.
+CRUD de tareas con PHP puro, login, dashboard y temas.
 
 ## Requisitos
 
 - PHP 7.4+
-- SQLite (incluido en PHP)
 
 ## Uso
 
@@ -13,12 +12,20 @@ CRUD básico de tareas con PHP puro y SQLite.
 php -S localhost:8000
 ```
 
-Luego abre http://localhost:8000
+Abre http://localhost:8000
 
-## Estructura
+## Login
 
-- `index.php` - Lista de tareas
-- `create.php` - Crear tarea
-- `edit.php` - Editar tarea
-- `delete.php` - Eliminar tarea
-- `config.php` - Configuración y conexión a BD
+- Usuario: `admin`
+- Contraseña: `admin`
+
+## Características
+
+- Login con sesión
+- Dashboard con estadísticas (total, completadas, pendientes)
+- Gráfico de progreso barras
+- Estadísticas por tags
+- Temas personalizables (5 colores)
+- Modo oscuro
+- CRUD de tareas con tags
+- Licensed under GPL
