@@ -59,7 +59,7 @@ usort($tareas, fn($a, $b) => strtotime($b['created_at'] ?? time()) - strtotime($
             margin-bottom: 10px;
             padding-left: 15px;
         }
-        .submenu { padding-left: 15px; }
+        .submenu { padding-left: 15px; display: flex; gap: 8px; flex-wrap: wrap; }
         .submenu .menu-item { font-size: 14px; }
         .main { flex: 1; padding: 30px; }
         .header {
