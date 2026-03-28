@@ -119,9 +119,9 @@ $user = $_SESSION['user'];
             <div class="menu-section">
                 <div class="menu-title">Tableros</div>
                 <div class="submenu">
-                    <a href="#" class="menu-item">Kanban</a>
-                    <a href="#" class="menu-item">Lista</a>
-                    <a href="#" class="menu-item">Calendario</a>
+                    <a href="board.php?type=kanban" class="menu-item">Kanban</a>
+                    <a href="board.php?type=lista" class="menu-item">Lista</a>
+                    <a href="board.php?type=calendario" class="menu-item">Calendario</a>
                 </div>
             </div>
             
