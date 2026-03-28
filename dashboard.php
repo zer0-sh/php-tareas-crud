@@ -56,8 +56,8 @@ $user = $_SESSION['user'];
             margin-bottom: 10px;
             padding-left: 15px;
         }
-        .submenu { padding-left: 15px; display: flex; gap: 8px; flex-wrap: wrap; }
-        .submenu .menu-item { font-size: 14px; }
+        .submenu { padding-left: 15px; display: flex; gap: 8px; flex-wrap: wrap; margin-top: 5px; }
+        .submenu .menu-item { font-size: 13px; padding: 8px 12px; margin-bottom: 0; background: rgba(255,255,255,0.05); }
         .main { flex: 1; padding: 30px; }
         .header {
             display: flex;
